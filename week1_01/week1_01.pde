@@ -4,7 +4,7 @@
  * This is a project creating just a window.
  *
  */
-
+size(400,400);
 float x0 = 100;
 float y0 = 10;
 float x1 = 300;

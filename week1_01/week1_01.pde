@@ -4,9 +4,23 @@
  * This is a project creating just a window.
  *
  */
-
+ 
 size(400,400);
-line(50,100,350,100);
-line(50,200,350,200) 
-line(50,300,350,300);
-rect(150.150,100,100);
+
+float x0 = 100;
+float y0 = 100;
+float x1 = 300;
+float y1 = 100;
+float d = 100;
+
+line(x0,y0,x1,y1);
+y0 = y0 + d;
+y1 = y1 + d;
+line(x0,y0,x1,y1);
+y0 = y0 + d;
+y1 = y1 + d;
+line(x0,y0,x1,y1);
+y0 = y0 + d;
+y1 = y1 + d;
+line(x0,y0,x1,y1);
+
